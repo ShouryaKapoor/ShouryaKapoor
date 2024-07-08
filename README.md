@@ -1,5 +1,7 @@
 ## SHOURYA KAPOOR 
 </br>
+CSE Student || 3rd Year || 🛢SQL || </> Python || ｡🇯‌🇸‌ JavaScript || Database Developer/Database Manager
+</br></br>
 🔭 I’m currently working on a project for implementing a database on a website with the help of Node.js </br>
 🌱 I’m currently learning javascript and node.js alond with advanced SQL </br>
 👯 I’m looking to collaborate on projects that involves building of a good and secure database or developing a web site </br>
