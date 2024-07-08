@@ -11,3 +11,5 @@ CSE Student || 3rd Year || 🛢SQL || </> Python || ｡🇯‌🇸‌ JavaScript
 </br>
 
 [![Shourya's GitHub stats](https://github-readme-stats.vercel.app/api?username=ShouryaKapoor&show_icons=true&theme=dark)](https://github.com/ShouryaKapoor/github-readme-stats)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ShouryaKapoor)](https://github.com/ShouryaKapoor/github-readme-stats)
