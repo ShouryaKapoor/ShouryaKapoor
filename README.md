@@ -7,4 +7,4 @@
 📫 How to reach me: shouryakapoor13@gmail.com </br>
 ⚡ Fun fact: There are over 700 programming languages! </br>
 
-[![Shourya's GitHub stats](https://github-readme-stats.vercel.app/api?username=ShouryaKapoor)](https://github.com/ShouryaKapoor/github-readme-stats)
+[![Shourya's GitHub stats](https://github-readme-stats.vercel.app/api?username=ShouryaKapoor&show_icons=true&theme=dark)](https://github.com/ShouryaKapoor/github-readme-stats)
