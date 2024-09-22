@@ -11,7 +11,7 @@
 CSE Student || 3rd Year || 🛢SQL || </> Python || ｡🇯‌🇸‌ JavaScript || Database Developer/Database Manager
 </br></br>
 🔭 I’m currently working on a project for implementing a database on a website with the help of Node.js </br>
-🌱 I’m currently learning javascript and node.js alond with advanced SQL </br>
+🌱 I’m currently learning javascript and node.js along with advanced SQL </br>
 👯 I’m looking to collaborate on projects that involves building of a good and secure database or developing a web site </br>
 💬 Ask me anything related to Databases, Syntaxes, Programming Languages, Scripts and more.. </br>
 📫 How to reach me: shouryakapoor13@gmail.com </br>
