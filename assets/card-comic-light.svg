@@ -1,18 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="580" height="210" viewBox="0 0 580 210" role="img" aria-label="One-Shot Comic Maker">
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="210" viewBox="0 0 590 210" role="img" aria-label="One-Shot Comic Maker">
   <defs>
     <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#6340f5"/><stop offset=".5" stop-color="#0891b2"/><stop offset="1" stop-color="#db2777"/></linearGradient>
     <radialGradient id="glow" cx="1" cy="0" r="1"><stop offset="0" stop-color="#6340f5" stop-opacity=".22"/><stop offset="1" stop-color="#6340f5" stop-opacity="0"/></radialGradient>
-    <clipPath id="f"><rect width="580" height="210" rx="16"/></clipPath>
+    <clipPath id="f"><rect width="590" height="210" rx="16"/></clipPath>
   </defs>
   <g clip-path="url(#f)">
-    <rect width="580" height="210" fill="#ffffff"/>
-    <rect width="580" height="210" fill="url(#glow)"/>
-    <rect width="580" height="3" fill="url(#g)"/>
+    <rect width="590" height="210" fill="#ffffff"/>
+    <rect width="590" height="210" fill="url(#glow)"/>
+    <rect width="590" height="3" fill="url(#g)"/>
   </g>
-  <rect x=".5" y=".5" width="579" height="209" rx="15.5" fill="none" stroke="#e7e5df"/>
-  <text x="28" y="40" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="13" fill="#6340f5">01</text>
-  <text x="528" y="40" text-anchor="end" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="13" fill="#a3a8b4">2025</text>
-  <text x="552" y="42" text-anchor="end" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" fill="#5b6272">↗</text>
+  <rect x=".5" y=".5" width="589" height="209" rx="15.5" fill="none" stroke="#e7e5df"/>
+  <text x="28" y="40" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="13" fill="#6340f5">02</text>
+  <text x="538" y="40" text-anchor="end" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="13" fill="#a3a8b4">2025</text>
+  <text x="562" y="42" text-anchor="end" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" fill="#5b6272">↗</text>
   <text x="28" y="76" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" letter-spacing="-.5" fill="#101218">One-Shot Comic Maker</text>
   <text x="28" y="108" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="15" fill="#5b6272">Prompt → finished comic strip. Gemini writes the script</text><text x="28" y="130" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="15" fill="#5b6272">as structured JSON, Imagen 3 paints every panel.</text>
   <rect x="28" y="160" width="80" height="26" rx="13" fill="none" stroke="#e7e5df"/><text x="68" y="177" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="12" fill="#5b6272">React 19</text><rect x="115.6" y="160" width="94" height="26" rx="13" fill="none" stroke="#e7e5df"/><text x="163" y="177" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="12" fill="#5b6272">TypeScript</text><rect x="217.6" y="160" width="65" height="26" rx="13" fill="none" stroke="#e7e5df"/><text x="250" y="177" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="12" fill="#5b6272">Gemini</text><rect x="290.79999999999995" y="160" width="80" height="26" rx="13" fill="none" stroke="#e7e5df"/><text x="331" y="177" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="12" fill="#5b6272">Imagen 3</text>

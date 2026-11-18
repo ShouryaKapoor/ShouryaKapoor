@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-label="Vanepoint">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7c5cff"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+    <radialGradient id="glow" cx="1" cy="0" r="1"><stop offset="0" stop-color="#7c5cff" stop-opacity=".22"/><stop offset="1" stop-color="#7c5cff" stop-opacity="0"/></radialGradient>
+    <clipPath id="f"><rect width="1200" height="210" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#f)">
+    <rect width="1200" height="210" fill="#11141b"/>
+    <rect width="1200" height="210" fill="url(#glow)"/>
+    <rect width="1200" height="3" fill="url(#g)"/>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="209" rx="15.5" fill="none" stroke="#1f2430"/>
+  <text x="28" y="40" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="13" fill="#7c5cff">01</text><rect x="56" y="24" width="108" height="22" rx="11" fill="#7c5cff" fill-opacity=".14"/><text x="110" y="39" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="12" fill="#7c5cff">v0.1 preview</text>
+  <text x="1148" y="40" text-anchor="end" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="13" fill="#4a5163">2026</text>
+  <text x="1172" y="42" text-anchor="end" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" fill="#8b93a7">↗</text>
+  <text x="28" y="76" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" letter-spacing="-.5" fill="#eef0f5">Vanepoint</text>
+  <text x="28" y="108" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="15" fill="#8b93a7">Turns your phone into a low-latency air mouse, presenter remote, inertia trackball and</text><text x="28" y="130" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="15" fill="#8b93a7">precision dial for your laptop. Encrypted end to end, paired devices only, no cloud.</text>
+  <rect x="28" y="160" width="51" height="26" rx="13" fill="none" stroke="#1f2430"/><text x="53" y="177" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="12" fill="#8b93a7">Rust</text><rect x="86.8" y="160" width="58" height="26" rx="13" fill="none" stroke="#1f2430"/><text x="116" y="177" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="12" fill="#8b93a7">Tauri</text><rect x="152.8" y="160" width="94" height="26" rx="13" fill="none" stroke="#1f2430"/><text x="200" y="177" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="12" fill="#8b93a7">TypeScript</text><rect x="254.8" y="160" width="51" height="26" rx="13" fill="none" stroke="#1f2430"/><text x="280" y="177" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="12" fill="#8b93a7">Expo</text><rect x="313.6" y="160" width="123" height="26" rx="13" fill="none" stroke="#1f2430"/><text x="375" y="177" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="12" fill="#8b93a7">Noise Protocol</text>
+  <g opacity=".95">
+    <rect x="860" y="58" width="62" height="112" rx="12" fill="none" stroke="#8b93a7" stroke-width="2"/>
+    <rect x="880" y="64" width="22" height="4" rx="2" fill="#4a5163"/>
+    <circle cx="891" cy="122" r="18" fill="none" stroke="#7c5cff" stroke-width="2" stroke-dasharray="3 4">
+      <animateTransform attributeName="transform" type="rotate" from="0 891 122" to="360 891 122" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="891" cy="122" r="5" fill="#7c5cff"/>
+    <path id="arc" d="M932 104 C 990 40, 1050 40, 1088 92" fill="none" stroke="#1f2430" stroke-width="2" stroke-dasharray="2 7"/>
+    <circle r="5" fill="#22d3ee">
+      <animateMotion dur="2.4s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="spline" keySplines=".5 0 .5 1"><mpath href="#arc"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.8;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="1030" y="100" width="128" height="80" rx="8" fill="none" stroke="#8b93a7" stroke-width="2"/>
+    <path d="M1016 186 h156" stroke="#8b93a7" stroke-width="2" stroke-linecap="round"/>
+    <path d="M1088 120 l0 26 l7 -6 l5 11 l5 -2 l-5 -11 l9 0 z" fill="#eef0f5">
+      <animateTransform attributeName="transform" type="translate" values="0 0;10 6;-6 10;0 0" dur="2.4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

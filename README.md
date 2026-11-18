@@ -36,24 +36,21 @@ now:
 ### `02` &nbsp;selected work
 
 <div align="center">
-<a href="https://github.com/ShouryaKapoor/AI-Comic-Maker"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-comic-dark.svg"><img src="assets/card-comic-light.svg" width="49%" alt="One-Shot Comic Maker"></picture></a>
-<a href="https://github.com/ShouryaKapoor/likho-app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-likho-dark.svg"><img src="assets/card-likho-light.svg" width="49%" alt="Likho"></picture></a>
-<a href="https://github.com/ShouryaKapoor/Vitalis-AI-Symptom-Check"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-vitalis-dark.svg"><img src="assets/card-vitalis-light.svg" width="49%" alt="Vitalis"></picture></a>
-<a href="https://github.com/ShouryaKapoor?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-more-dark.svg"><img src="assets/card-more-light.svg" width="49%" alt="More repositories"></picture></a>
+<a href="https://github.com/vanepoint-hq/vanepoint"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-vanepoint-dark.svg"><img src="assets/card-vanepoint-light.svg" width="100%" alt="Vanepoint: turn your phone into an air mouse, presenter remote, trackball and dial"></picture></a>
+<a href="https://github.com/ShouryaKapoor/AI-Comic-Maker"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-comic-dark.svg"><img src="assets/card-comic-light.svg" width="49.4%" alt="One-Shot Comic Maker"></picture></a>
+<a href="https://github.com/ShouryaKapoor/Vitalis-AI-Symptom-Check"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-vitalis-dark.svg"><img src="assets/card-vitalis-light.svg" width="49.4%" alt="Vitalis"></picture></a>
+
+<sub>more on <a href="https://github.com/ShouryaKapoor?tab=repositories">my repositories</a>: Likho, Distill-it, Flex, Scriptify, NavSwift</sub>
 </div>
 
 <br>
 
 ### `03` &nbsp;toolkit
 
-<div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,ts,js,cpp,java,react,nextjs,nodejs,fastapi,tailwind,postgres,prisma,pytorch,git,vscode&perline=15&theme=dark">
-  <img src="https://skillicons.dev/icons?i=py,ts,js,cpp,java,react,nextjs,nodejs,fastapi,tailwind,postgres,prisma,pytorch,git,vscode&perline=15&theme=light" alt="Python, TypeScript, JavaScript, C++, Java, React, Next.js, Node.js, FastAPI, Tailwind, PostgreSQL, Prisma, PyTorch, Git, VS Code">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/toolkit-dark.svg">
+  <img src="assets/toolkit-light.svg" width="100%" alt="Toolkit: Python, TypeScript, JavaScript, C++, Java, React, Next.js, Node.js, FastAPI, Tailwind, Framer Motion, PostgreSQL, Prisma, Drizzle, Neon, PyTorch, Gemini, Claude, Git, GitHub, Copilot, n8n, Clerk">
 </picture>
-
-<sub>also: Gemini · Claude · GPT-Codex APIs, n8n, Drizzle, Neon, Clerk, Framer Motion</sub>
-</div>
 
 <br>
 
