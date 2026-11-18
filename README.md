@@ -1,42 +1,80 @@
-<h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Shourya+Kapoor!;" />
-</h1>
+<div align="center">
 
-<h3 align="center">A passionate software engineer from India </h3>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img src="assets/hero-light.svg" width="100%" alt="Shourya Kapoor: software engineer, MSc Intelligent Systems at Trinity College Dublin">
+</picture>
 
-<br/>
+<br><br>
+
+<a href="https://shouryakapoor.github.io"><img src="https://img.shields.io/badge/portfolio-shouryakapoor.github.io-7c5cff?style=flat-square&labelColor=0b0d12" alt="Portfolio"></a>
+<a href="https://linkedin.com/in/shouryakapoor/"><img src="https://img.shields.io/badge/LinkedIn-shouryakapoor-22d3ee?style=flat-square&logo=linkedin&logoColor=white&labelColor=0b0d12" alt="LinkedIn"></a>
+<a href="mailto:shouryakapoorapps@gmail.com"><img src="https://img.shields.io/badge/email-say%20hello-f472b6?style=flat-square&logo=gmail&logoColor=white&labelColor=0b0d12" alt="Email"></a>
+<a href="https://instagram.com/shouryyakapoor"><img src="https://img.shields.io/badge/Instagram-@shouryyakapoor-eef0f5?style=flat-square&logo=instagram&logoColor=white&labelColor=0b0d12" alt="Instagram"></a>
+
+</div>
+
+<br>
+
+### `01` &nbsp;about
+
+I build software that puts AI to real work: agent pipelines, RAG systems, and the full-stack apps around them. Right now I'm doing an **MSc in Computer Science (Intelligent Systems) at Trinity College Dublin**.
+
+Before Trinity I was at **Kusum Healthcare**. I started as a software developer intern shipping internal portals in Next.js and Postgres, then became **Project Lead** for an org-wide document management rollout that I initiated, onboarding 100+ users.
+
+```yaml
+now:
+  studying:  MSc CS · Intelligent Systems @ Trinity College Dublin
+  building:  a multi-agent disaster-response simulator with RAG
+  tinkering: MiniGPT, a small GPT written from scratch in PyTorch
+  research:  dissertation comparing REST API testing tools
+  open_to:   internships · graduate roles · part-time work in Dublin
+```
+
+<br>
+
+### `02` &nbsp;selected work
 
 <div align="center">
-</br>
- AI-ML || 🛢SQL || </> Python || ｡🇯‌🇸‌ Full Stack || 
-</br></br>
-🌱 I’m currently learning python for AI-ML </br>
-👯 I’m looking to collaborate on projects that involves building AI agents </br>
-💬 Ask me anything related to Databases, Syntaxes, Programming Languages, Scripts and more.. </br>
-📫 How to reach me: shouryakapoor13@gmail.com </br>
-⚡ Fun fact: There are over 700 programming languages! </br>
-</br>
+<a href="https://github.com/ShouryaKapoor/AI-Comic-Maker"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-comic-dark.svg"><img src="assets/card-comic-light.svg" width="49%" alt="One-Shot Comic Maker"></picture></a>
+<a href="https://github.com/ShouryaKapoor/likho-app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-likho-dark.svg"><img src="assets/card-likho-light.svg" width="49%" alt="Likho"></picture></a>
+<a href="https://github.com/ShouryaKapoor/Vitalis-AI-Symptom-Check"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-vitalis-dark.svg"><img src="assets/card-vitalis-light.svg" width="49%" alt="Vitalis"></picture></a>
+<a href="https://github.com/ShouryaKapoor?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-more-dark.svg"><img src="assets/card-more-light.svg" width="49%" alt="More repositories"></picture></a>
+</div>
 
+<br>
 
+### `03` &nbsp;toolkit
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/shoouryakapoor) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shourya-kapoor-a110451b0/) 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,ts,js,cpp,java,react,nextjs,nodejs,fastapi,tailwind,postgres,prisma,pytorch,git,vscode&perline=15&theme=dark">
+  <img src="https://skillicons.dev/icons?i=py,ts,js,cpp,java,react,nextjs,nodejs,fastapi,tailwind,postgres,prisma,pytorch,git,vscode&perline=15&theme=light" alt="Python, TypeScript, JavaScript, C++, Java, React, Next.js, Node.js, FastAPI, Tailwind, PostgreSQL, Prisma, PyTorch, Git, VS Code">
+</picture>
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![Home Assistant](https://img.shields.io/badge/home%20assistant-%2341BDF5.svg?style=for-the-badge&logo=home-assistant&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=ShouryaKapoor&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=ShouryaKapoor&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=ShouryaKapoor&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<sub>also: Gemini · Claude · GPT-Codex APIs, n8n, Drizzle, Neon, Clerk, Framer Motion</sub>
+</div>
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=ShouryaKapoor&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+<br>
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+### `04` &nbsp;activity
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=ShouryaKapoor&limit=5&theme=radical&combine_all_yearly_contributions=true)
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+  <img src="assets/stats-light.svg" width="100%" alt="GitHub stats: contributions, streaks, and top languages">
+</picture>
 
----
-[![](https://visitcount.itsvg.in/api?id=ShouryaKapoor&icon=6&color=8)](https://visitcount.itsvg.in)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShouryaKapoor/ShouryaKapoor/output/snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/ShouryaKapoor/ShouryaKapoor/output/snake-light.svg" width="100%" alt="Snake eating my contribution graph">
+</picture>
+</div>
+
+<br>
+
+<div align="center">
+<sub><code>150+ LeetCode</code> · <code>Smart India Hackathon finalist</code> · <code>Tata Imagination Challenge '24 semi-finalist</code> · <code>Claude 101 certified</code></sub>
+<br><br>
+<sub>stats and snake are redrawn daily by <a href=".github/workflows/profile.yml">a GitHub Action</a>, no third-party cards</sub>
+</div>

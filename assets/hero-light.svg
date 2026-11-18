@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Shourya Kapoor — software engineer, MSc Intelligent Systems at Trinity College Dublin">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#6340f5"/><stop offset=".5" stop-color="#0891b2"/><stop offset="1" stop-color="#db2777"/>
+    </linearGradient>
+    <linearGradient id="gs" x1="0" x2="1">
+      <stop offset="0" stop-color="#6340f5"/><stop offset=".5" stop-color="#0891b2"/><stop offset="1" stop-color="#db2777"/><stop offset="1.5" stop-color="#6340f5"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#e7e5df"/>
+    </pattern>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
+    <clipPath id="frame"><rect width="1200" height="340" rx="22"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="#fbfaf7"/>
+    <rect width="1200" height="340" fill="url(#dots)"/>
+    <g filter="url(#blur)" opacity=".55">
+      <circle cx="980" cy="60" r="150" fill="#6340f5">
+        <animate attributeName="cx" values="980;880;980" dur="14s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="60;120;60" dur="11s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1120" cy="300" r="120" fill="#0891b2">
+        <animate attributeName="cx" values="1120;1040;1120" dur="12s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="640" cy="380" r="110" fill="#db2777" opacity=".7">
+        <animate attributeName="cx" values="640;720;640" dur="16s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="339" rx="21.5" fill="none" stroke="#e7e5df"/>
+
+  <!-- window chrome -->
+  <circle cx="34" cy="32" r="6" fill="#ff5f57"/><circle cx="54" cy="32" r="6" fill="#febc2e"/><circle cx="74" cy="32" r="6" fill="#28c840"/>
+  <text x="600.0" y="37" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="13" fill="#a3a8b4">~/shourya-kapoor — zsh</text>
+  <line x1="0" y1="58" x2="1200" y2="58" stroke="#e7e5df"/>
+
+  <!-- intro -->
+  <text x="64" y="118" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="16" fill="#5b6272">hello, world — I'm</text>
+  <text x="60" y="190" font-family="'Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="74" font-weight="800" letter-spacing="-2.5" fill="#101218">Shourya Kapoor<tspan fill="#0891b2">.</tspan></text>
+
+  <text x="64" y="246" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="22" font-weight="700" fill="#6340f5">&gt;</text>
+    <clipPath id="c0"><rect x="94" y="222" height="34" width="0">
+      <animate attributeName="width" values="0;490;490;0;0" keyTimes="0;0.1;0.27;0.31;1" dur="12s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines=".4 0 .6 1;0 0 1 1;.4 0 .6 1;0 0 1 1"/>
+    </rect></clipPath>
+    <text x="94" y="246" clip-path="url(#c0)" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="22" fill="#101218">building AI agents that actually ship</text>
+    <rect x="94" y="226" width="11" height="26" rx="1.5" fill="#0891b2" opacity="0">
+      <animate attributeName="x" values="94;584;584;94;94" keyTimes="0;0.1;0.27;0.31;1" dur="12s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines=".4 0 .6 1;0 0 1 1;.4 0 .6 1;0 0 1 1"/>
+      <animate attributeName="opacity" values="1;0" keyTimes="0;0.333" dur="12s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
+    </rect>
+    <clipPath id="c1"><rect x="94" y="222" height="34" width="0">
+      <animate attributeName="width" values="0;636;636;0;0" keyTimes="0;0.1;0.27;0.31;1" dur="12s" begin="4s" repeatCount="indefinite" calcMode="spline" keySplines=".4 0 .6 1;0 0 1 1;.4 0 .6 1;0 0 1 1"/>
+    </rect></clipPath>
+    <text x="94" y="246" clip-path="url(#c1)" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="22" fill="#101218">MSc Intelligent Systems @ Trinity College Dublin</text>
+    <rect x="94" y="226" width="11" height="26" rx="1.5" fill="#0891b2" opacity="0">
+      <animate attributeName="x" values="94;730;730;94;94" keyTimes="0;0.1;0.27;0.31;1" dur="12s" begin="4s" repeatCount="indefinite" calcMode="spline" keySplines=".4 0 .6 1;0 0 1 1;.4 0 .6 1;0 0 1 1"/>
+      <animate attributeName="opacity" values="1;0" keyTimes="0;0.333" dur="12s" begin="4s" repeatCount="indefinite" calcMode="discrete"/>
+    </rect>
+    <clipPath id="c2"><rect x="94" y="222" height="34" width="0">
+      <animate attributeName="width" values="0;609;609;0;0" keyTimes="0;0.1;0.27;0.31;1" dur="12s" begin="8s" repeatCount="indefinite" calcMode="spline" keySplines=".4 0 .6 1;0 0 1 1;.4 0 .6 1;0 0 1 1"/>
+    </rect></clipPath>
+    <text x="94" y="246" clip-path="url(#c2)" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="22" fill="#101218">full-stack · GenAI · RAG · multi-agent systems</text>
+    <rect x="94" y="226" width="11" height="26" rx="1.5" fill="#0891b2" opacity="0">
+      <animate attributeName="x" values="94;703;703;94;94" keyTimes="0;0.1;0.27;0.31;1" dur="12s" begin="8s" repeatCount="indefinite" calcMode="spline" keySplines=".4 0 .6 1;0 0 1 1;.4 0 .6 1;0 0 1 1"/>
+      <animate attributeName="opacity" values="1;0" keyTimes="0;0.333" dur="12s" begin="8s" repeatCount="indefinite" calcMode="discrete"/>
+    </rect>
+
+  <rect x="64" y="284" width="300" height="4" rx="2" fill="url(#gs)"/>
+
+  <!-- status panel -->
+  <rect x="790" y="86" width="368" height="202" rx="14" fill="#ffffff" fill-opacity=".82" stroke="#e7e5df"/>
+  <circle cx="818" cy="254" r="5" fill="#28c840">
+    <animate attributeName="r" values="5;8;5" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;.35;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="818" cy="254" r="4" fill="#28c840"/>
+  <text x="834" y="259" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="13" fill="#101218">open to internships &amp; grad roles</text>
+  <line x1="814" y1="232" x2="1134" y2="232" stroke="#e7e5df"/>
+  <text x="814" y="128" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="13" fill="#a3a8b4">based in</text><text x="906" y="128" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="13" fill="#101218">Dublin, Ireland</text><text x="814" y="158" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="13" fill="#a3a8b4">studying</text><text x="906" y="158" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="13" fill="#101218">MSc CS · Intelligent Systems</text><text x="814" y="188" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="13" fill="#a3a8b4">at</text><text x="906" y="188" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="13" fill="#101218">Trinity College Dublin</text><text x="814" y="218" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="13" fill="#a3a8b4">previously</text><text x="906" y="218" font-family="'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="13" fill="#101218">Project Lead · Kusum Healthcare</text>
+</svg>
