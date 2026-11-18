@@ -4,6 +4,7 @@ Run:  python scripts/build_assets.py
 Edit the CONTENT section below, re-run, commit. No dependencies.
 """
 
+import json
 from pathlib import Path
 
 from theme import MONO, SANS, THEMES, esc
@@ -27,6 +28,18 @@ STATUS = [
 
 PROJECTS = [
     {
+        "slug": "vanepoint",
+        "year": "2026",
+        "title": "Vanepoint",
+        "tag": "v0.1 preview",
+        "wide": True,
+        "desc": [
+            "Turns your phone into a low-latency air mouse, presenter remote, inertia trackball and",
+            "precision dial for your laptop. Encrypted end to end, paired devices only, no cloud.",
+        ],
+        "chips": ["Rust", "Tauri", "TypeScript", "Expo", "Noise Protocol"],
+    },
+    {
         "slug": "comic",
         "year": "2025",
         "title": "One-Shot Comic Maker",
@@ -37,16 +50,6 @@ PROJECTS = [
         "chips": ["React 19", "TypeScript", "Gemini", "Imagen 3"],
     },
     {
-        "slug": "likho",
-        "year": "2025",
-        "title": "Likho · लिखो",
-        "desc": [
-            "A writing & storytelling platform with a flashlight-",
-            "cursor intro, live story analytics and AI visuals.",
-        ],
-        "chips": ["Next.js 14", "Neon", "Drizzle", "Gemini"],
-    },
-    {
         "slug": "vitalis",
         "year": "2025",
         "title": "Vitalis",
@@ -55,16 +58,6 @@ PROJECTS = [
             "structured, plain-language guidance back.",
         ],
         "chips": ["React", "FastAPI", "Python", "LLMs"],
-    },
-    {
-        "slug": "more",
-        "year": "",
-        "title": "More on GitHub",
-        "desc": [
-            "Vanepoint · Distill-it · Flex · Scriptify ·",
-            "NavSwift, plus a lot of experiments.",
-        ],
-        "chips": ["browse all repos"],
     },
 ]
 
@@ -168,10 +161,11 @@ def hero(t: dict) -> str:
 
 # ───────────────────────────── CARDS ─────────────────────────────
 
-CW, CH = 580, 210
+CH = 210
 
 
 def card(p: dict, idx: int, t: dict) -> str:
+    CW = 1200 if p.get("wide") else 590
     chips, cx = [], 28
     for c in p["chips"]:
         w = len(c) * 12 * CHAR + 22
@@ -184,7 +178,33 @@ def card(p: dict, idx: int, t: dict) -> str:
         f'<text x="28" y="{108 + i * 22}" font-family="{SANS}" font-size="15" fill="{t["muted"]}">{esc(d)}</text>'
         for i, d in enumerate(p["desc"])
     )
-    num = "··" if p["slug"] == "more" else f"{idx + 1:02d}"
+    num = f"{idx + 1:02d}"
+    tag = ""
+    if p.get("tag"):
+        tw = len(p["tag"]) * 12 * CHAR + 22
+        tag = (f'<rect x="56" y="24" width="{tw:.0f}" height="22" rx="11" fill="{t['a1']}" fill-opacity=".14"/>'
+               f'<text x="{56 + tw / 2:.0f}" y="39" text-anchor="middle" font-family="{MONO}" font-size="12" fill="{t['a1']}">{esc(p['tag'])}</text>')
+    art = ""
+    if p.get("wide"):
+        art = f"""
+  <g opacity=".95">
+    <rect x="860" y="58" width="62" height="112" rx="12" fill="none" stroke="{t['muted']}" stroke-width="2"/>
+    <rect x="880" y="64" width="22" height="4" rx="2" fill="{t['dim']}"/>
+    <circle cx="891" cy="122" r="18" fill="none" stroke="{t['a1']}" stroke-width="2" stroke-dasharray="3 4">
+      <animateTransform attributeName="transform" type="rotate" from="0 891 122" to="360 891 122" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="891" cy="122" r="5" fill="{t['a1']}"/>
+    <path id="arc" d="M932 104 C 990 40, 1050 40, 1088 92" fill="none" stroke="{t['line']}" stroke-width="2" stroke-dasharray="2 7"/>
+    <circle r="5" fill="{t['a2']}">
+      <animateMotion dur="2.4s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="spline" keySplines=".5 0 .5 1"><mpath href="#arc"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.8;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="1030" y="100" width="128" height="80" rx="8" fill="none" stroke="{t['muted']}" stroke-width="2"/>
+    <path d="M1016 186 h156" stroke="{t['muted']}" stroke-width="2" stroke-linecap="round"/>
+    <path d="M1088 120 l0 26 l7 -6 l5 11 l5 -2 l-5 -11 l9 0 z" fill="{t['fg']}">
+      <animateTransform attributeName="transform" type="translate" values="0 0;10 6;-6 10;0 0" dur="2.4s" repeatCount="indefinite"/>
+    </path>
+  </g>"""
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{CW}" height="{CH}" viewBox="0 0 {CW} {CH}" role="img" aria-label="{esc(p['title'])}">
   <defs>
     <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="{t['a1']}"/><stop offset=".5" stop-color="{t['a2']}"/><stop offset="1" stop-color="{t['a3']}"/></linearGradient>
@@ -197,20 +217,72 @@ def card(p: dict, idx: int, t: dict) -> str:
     <rect width="{CW}" height="3" fill="url(#g)"/>
   </g>
   <rect x=".5" y=".5" width="{CW - 1}" height="{CH - 1}" rx="15.5" fill="none" stroke="{t['line']}"/>
-  <text x="28" y="40" font-family="{MONO}" font-size="13" fill="{t['a1']}">{num}</text>
+  <text x="28" y="40" font-family="{MONO}" font-size="13" fill="{t['a1']}">{num}</text>{tag}
   <text x="{CW - 52}" y="40" text-anchor="end" font-family="{MONO}" font-size="13" fill="{t['dim']}">{p['year']}</text>
   <text x="{CW - 28}" y="42" text-anchor="end" font-family="{SANS}" font-size="20" fill="{t['muted']}">↗</text>
   <text x="28" y="76" font-family="{SANS}" font-size="26" font-weight="700" letter-spacing="-.5" fill="{t['fg']}">{esc(p['title'])}</text>
   {desc}
-  {''.join(chips)}
+  {''.join(chips)}{art}
+</svg>
+"""
+
+
+# ───────────────────────────── TOOLKIT ─────────────────────────────
+# Icon paths come from Simple Icons (CC0), vendored in scripts/icons.json so
+# nothing is fetched at render time. Edit that file to add/remove tools.
+
+ICONS = json.loads((Path(__file__).parent / "icons.json").read_text(encoding="utf-8"))
+
+
+def _lum(hex_: str) -> float:
+    r, g, b = (int(hex_[i : i + 2], 16) / 255 for i in (0, 2, 4))
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b
+
+
+def _icon_color(hex_: str, mode: str, t: dict) -> str:
+    """Keep brand colours, but rescue ones that vanish on the background."""
+    lum = _lum(hex_)
+    if mode == "dark" and lum < 0.22:
+        return t["fg"]  # black logos (Next.js, GitHub) → near-white
+    if mode == "light" and lum > 0.62:
+        r, g, b = (int(int(hex_[i : i + 2], 16) * 0.62) for i in (0, 2, 4))
+        return f"#{r:02x}{g:02x}{b:02x}"  # yellow/lime → darker shade
+    return f"#{hex_}"
+
+
+def toolkit(mode: str, t: dict) -> str:
+    tile, step, x0, row_h, top = 56, 128, 196, 108, 34
+    h = top + row_h * len(ICONS) + 6
+    body, n = [], 0
+    for r, (group, items) in enumerate(ICONS.items()):
+        y = top + r * row_h
+        body.append(f'<text x="28" y="{y + 34}" font-family="{MONO}" font-size="13" fill="{t["muted"]}">{esc(group)}</text>')
+        if r:
+            body.append(f'<line x1="28" y1="{y - 14}" x2="1172" y2="{y - 14}" stroke="{t["line"]}" stroke-dasharray="2 6"/>')
+        for i, it in enumerate(items):
+            x = x0 + i * step
+            delay = 0.04 * n
+            n += 1
+            dur = delay + 0.45
+            body.append(f"""<g opacity="1">
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;{delay / dur:.3f};1" dur="{dur:.2f}s" fill="freeze"/>
+      <rect x="{x}" y="{y}" width="{tile}" height="{tile}" rx="14" fill="{t['panel']}" stroke="{t['line']}"/>
+      <path transform="translate({x + 14} {y + 14}) scale(1.1667)" d="{it['path']}" fill="{_icon_color(it['hex'], mode, t)}"/>
+      <text x="{x + tile / 2}" y="{y + tile + 22}" text-anchor="middle" font-family="{SANS}" font-size="13" fill="{t['fg']}">{esc(it['name'])}</text>
+    </g>""")
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="{h}" viewBox="0 0 1200 {h}" role="img" aria-label="Toolkit: {esc(', '.join(i['name'] for v in ICONS.values() for i in v))}">
+  {''.join(body)}
 </svg>
 """
 
 
 def main() -> None:
     OUT.mkdir(exist_ok=True)
+    for old in OUT.glob("card-*.svg"):
+        old.unlink()  # drop cards for projects no longer listed
     for mode, t in THEMES.items():
         (OUT / f"hero-{mode}.svg").write_text(hero(t), encoding="utf-8")
+        (OUT / f"toolkit-{mode}.svg").write_text(toolkit(mode, t), encoding="utf-8")
         for i, p in enumerate(PROJECTS):
             (OUT / f"card-{p['slug']}-{mode}.svg").write_text(card(p, i, t), encoding="utf-8")
     print("wrote", sorted(x.name for x in OUT.glob("*.svg")))
